@@ -28,10 +28,11 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.1.12"
+        default: "6.1.13"
         type: choice
         options:
           - 6.1.12
+          - 6.1.13
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
@@ -40,7 +41,7 @@ on:
       kernel_repo:
         description: "Set the kernel repository"
         required: false
-        default: "https://github.com/nothingbegood/K/tree/main/pub"
+        default: "https://github.com/nothingbegood/kernel/tree/main/pub"
       openwrt_size:
         description: "Set the rootfs size(Unit: MiB)"
         required: false
