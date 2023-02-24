@@ -47,7 +47,7 @@ on:
         default: "1024"
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Shanghai
   IMAGEBUILDER_SH: config-openwrt/openwrt-imagebuilder/imagebuilder.sh
 
 jobs:
