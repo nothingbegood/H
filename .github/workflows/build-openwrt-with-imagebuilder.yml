@@ -28,11 +28,10 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.1.13"
+        default: "6.1.14"
         type: choice
         options:
-          - 6.1.12
-          - 6.1.13
+          - 6.1.14
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
