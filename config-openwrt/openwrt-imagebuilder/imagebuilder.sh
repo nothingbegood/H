@@ -174,7 +174,7 @@ rebuild_firmware() {
         acpid attr base-files bash bc bind-server blkid block-mount blockd bsdtar \
         btrfs-progs busybox bzip2 cgi-io chattr comgt comgt-ncm containerd coremark \
         coreutils coreutils-base64 coreutils-nohup coreutils-truncate curl \
-        dockerd dosfstools dumpe2fs e2freefrag e2fsprogs exfat-mkfs \
+        dosfstools dumpe2fs e2freefrag e2fsprogs exfat-mkfs \
         f2fs-tools f2fsck fdisk gawk getopt gzip hostapd-common iconv iw iwinfo jq jshn \
         kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-mac80211 libjson-script \
         liblucihttp liblucihttp-lua libnetwork losetup lsattr lsblk lscpu mkf2fs \
